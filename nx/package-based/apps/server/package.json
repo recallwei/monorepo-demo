@@ -1,0 +1,11 @@
+{
+  "name": "@mono/server",
+  "version": "0.0.0",
+  "main": "dist/index.js",
+  "devDependencies": {
+    "@mono/utils": "workspace:*"
+  },
+  "scripts": {
+    "build": "tsc src/index.ts --outDir dist"
+  }
+}

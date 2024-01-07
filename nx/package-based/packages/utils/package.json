@@ -1,0 +1,15 @@
+{
+  "name": "@mono/utils",
+  "version": "0.0.1",
+  "main": "dist/index.js",
+  "author": "Bruce Song",
+  "description": "Test utils",
+  "devDependencies": {},
+  "scripts": {
+    "build": "tsc src/index.ts --outDir dist"
+  },
+  "publishConfig": {
+    "access": "restricted",
+    "registry": "http://localhost:4873/"
+  }
+}

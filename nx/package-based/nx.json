@@ -1,0 +1,14 @@
+{
+  "extends": "nx/presets/npm.json",
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+  "targetDefaults": {
+    "build": {
+      "cache": true,
+      "dependsOn": ["^build"]
+    },
+    "lint": {
+      "cache": true
+    }
+  },
+  "nxCloudAccessToken": "NzY0ZmQ1NGMtZjE3ZC00YWQ0LWJhNjItOTM5YmI5ZTVkMjM4fHJlYWQtd3JpdGU="
+}
