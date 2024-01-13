@@ -7,6 +7,11 @@
   "devDependencies": {
     "@nx/js": "17.2.8",
     "nx": "17.2.8",
-    "typescript": "^5.3.3"
-  }
+    "typescript": "^5.3.3",
+    "verdaccio": "^5.0.4"
+  },
+  "nx": {
+    "includedScripts": []
+  },
+  "dependencies": {}
 }
