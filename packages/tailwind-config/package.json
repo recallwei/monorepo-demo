@@ -1,0 +1,23 @@
+{
+  "name": "@infra/tailwind-config",
+  "version": "0.0.1",
+  "description": "Universal TailwindCSS config for reusing.",
+  "author": "Bruce Song <recall4056@gmail.com> (https://github.com/recallwei/)",
+  "homepage": "https://github.com/recallwei/nx-infra-starter#readme",
+  "bugs": "https://github.com/recallwei/nx-infra-starter/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/recallwei/nx-infra-starter.git",
+    "directory": "packages/tailwind-config"
+  },
+  "files": [
+    "src/*"
+  ],
+  "main": "src/tailwind.config.ts",
+  "types": "src/tailwind.config.ts",
+  "dependencies": {
+    "tailwindcss": "^3.4.1"
+  },
+  "private": true,
+  "license": "MIT"
+}
